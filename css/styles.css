@@ -1,55 +1,52 @@
-body {
-  font-family: "Open Sans", sans-serif; }
+/* .navbar-nav {
+    float: none;
+    text-align: center;
+}
 
-h1, h2, h3 {
-  font-family: "Lobster", cursive; }
-
-h2 {
-  color: #3046C5; }
-
-header h2 {
-  color: #CEC8FF; }
-
-.site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
-  padding: 20px 0; }
+.navbar-nav li {
+display: inline-block;
+float: none;
+} */
 
 .jumbotron {
-  margin: 0;
-  padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
-  color: white; }
+    /* background-image: url("../img/02.jpg"); */
+    background-image: gray;
+    background-size: cover;
+  }
 
-.row-content {
-  padding: 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 200px; }
+  .carousel {
+    
+    border: 1px solid #222222;
+}
 
-.navbar {
-  background-color: #901CAD; }
+.nav-link{
+    font-size: 18px;
+    margin-right: 10px;
+}
 
-.tab-content {
-  border: 1px solid #DDD;
-  border-top: none;
-  padding: 10px; }
+.navbar-brand{
+    font-size: 25px;
+    margin-right: 40px; 
+    margin-left: 10px; 
+}
 
-/* CAROUSEL */
-.carousel-caption {
-  background-color: rgba(0, 0, 0, 0.5); }
 
-.carousel {
-  border: solid #5637dd; }
 
-/* CAROUSEL */
-#carouselButton {
-  position: absolute;
-  right: 0;
-  bottom: 0; }
 
-#reserveModal .modal-header {
-  background-color: #17A2B8; }
 
-#loginModal .modal-header {
-  background-color: #901CAD; }
-  #loginModal .modal-header h3 {
-    color: white; }
+  .fa-phone{
+    font-size: 35px;
+  }
+  .fa-envelope-o{
+    font-size: 30px;
+  }
+
+  .info-header {
+    /* width: 50%; */
+    margin: auto;
+    border-bottom: 1px #ddd solid; }
+
+    .ptext{
+        text-align: center;
+    }
+ 
